@@ -1,0 +1,49 @@
+.toast-container {
+  width: 500px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  align-items: center;
+  grid-column-gap: 0.5em;
+  font-family: "Inter", sans-serif;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.toast-img {
+  width: 30px;
+  grid-column: 1;
+}
+
+.toast-title-text {
+  grid-column: 2;
+  margin: 0;
+  font-weight: 500;
+}
+
+.toast-description-text {
+  grid-column: 2;
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.toast-success {
+  background-color: #ECFDF5;
+  color: #047857
+}
+
+.toast-warning {
+  background-color: #FFFBEB;
+  color: #B45309;
+}
+
+.toast-information {
+  background-color: #EFF6FF;
+  color: #1C51B9;
+}
+
+.toast-error {
+  background-color: #FEF2F2;
+  color: #B45309;
+}
